@@ -1,18 +1,21 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - Code to print a through to z
+ * print_alphabet  - Code to print a through to z
  *
+ * Return 0
  */
 
 void print_alphabet(void)
 {
-	char p;
 
-	for (p = 'a'; p <= 'z'; p++)
+	char c;
 
-	_putchar(p);
+	for (c = 'a'; c <= 'z'; c++)
 
-	_putchar ('\n');
+	_putchar(c);
+
+	_putchar('\n');
+
 
 }
