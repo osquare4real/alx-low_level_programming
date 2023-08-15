@@ -3,20 +3,16 @@
 /**
  * main - Code to print a through to z
  *
- * Reture: 0 (Success)
- *
  */
+
 void print_alphabet(void)
 {
 	char p;
 
 	for (p = 'a'; p <= 'z'; p++)
-	{
-		putchar(p);
-	}
 
-	putchar ('\n');
+	_putchar(p);
 
-	return (0);
+	_putchar ('\n');
 
 }
