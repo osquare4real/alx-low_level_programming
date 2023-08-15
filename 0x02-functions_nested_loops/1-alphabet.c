@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 /**
  * main - Code to print a through to z
@@ -5,14 +6,13 @@
  * Reture: 0 (Success)
  *
  */
-int main(void)
+void print_alphabet(void)
 {
-	char p = 'a';
+	char p;
 
-	while (p <= 'z')
+	for (p = 'a'; p <= 'z'; p++)
 	{
 		putchar(p);
-		p++;
 	}
 
 	putchar ('\n');
