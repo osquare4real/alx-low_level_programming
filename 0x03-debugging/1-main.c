@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+*the header to determine the prinf command is not included
 * main - causes an infinite loop
 * Return: 0
 */
@@ -18,7 +19,7 @@ int main(void)
 		putchar(i);
         }
 
-	rintf("Infinite loop avoided! \\o/\n");
+	printf("Infinite loop avoided! \\o/\n");
 
 	return (0);
 }
