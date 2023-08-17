@@ -1,7 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>	/* The header is not complete, there suppose to be main.h */
 
 /**
-*the header to determine the prinf command is not included
 * main - causes an infinite loop
 * Return: 0
 */
