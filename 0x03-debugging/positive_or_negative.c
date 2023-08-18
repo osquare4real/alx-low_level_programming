@@ -6,7 +6,7 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main ()
 {
 int n;
 srand(time(0));
@@ -24,5 +24,6 @@ if (n == 0)
 {
 printf("%d is zero\n", n);
 }
+
 return (0);
 }
