@@ -1,8 +1,7 @@
 #include "main.h"
 
 /**
- *_strcat - concatenates  the string pointed to by @src to
- * the end of the string pointed to by @dest
+ *_strcat - Entry point
  *@dest: String that will be appended
  *@src: String to be concatenated upon
  *
@@ -21,12 +20,15 @@ char *_strcat(char *dest, char *src)
 	{
 		a++;
 	}
+
 	b = 0;
-	while (src[b] ! = '\0')
+
+	while (src[b] != '\0')
 	{
 		dest[a] = src[b];
 	}
 
 	dest[a] = '\0';
+
 	return (dest);
 }
