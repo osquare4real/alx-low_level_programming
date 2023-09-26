@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * free_listint - Entry Point 
+ * free_listint - Entry Point
  *
  * @head: pointer to the first node of the list
  *
